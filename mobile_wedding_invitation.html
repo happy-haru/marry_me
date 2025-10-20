@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>성관 & 수정 결혼합니다</title>
+<meta name="description" content="2026년 4월 4일(토) 14:00, 호텔수성(대구)에서 뵙겠습니다." />
+<meta property="og:title" content="성관 & 수정 결혼합니다" />
+<meta property="og:description" content="2026년 4월 4일(토) 14:00, 호텔수성(대구)에서 뵙겠습니다." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://example.com/invitation" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1600&auto=format&fit=crop" />
+<meta name="theme-color" content="#ffffff" />
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1e293b;
+    --muted: #64748b;
+    --accent: #111827;
+    --rose: #e11d48;
+    --radius: 20px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', Roboto, sans-serif; color: var(--fg); background: var(--bg); }
+  a { color: inherit; text-decoration: none; }
+  img { max-width: 100%; display: block; }
+  .container { width: 100%; max-width: 980px; margin: 0 auto; padding: 0 16px; }
+  .nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(10px); background: rgba(255,255,255,0.8); border-bottom: 1px solid #e5e7eb; }
+  .nav-inner { display: flex; gap: 14px; align-items: center; justify-content: space-between; height: 56px; }
+  .brand { font-weight: 700; }
+  .nav-links a { padding: 10px 12px; border-radius: 10px; font-size: 14px; color: var(--muted); }
+  .nav-links a:hover { background: #f3f4f6; color: var(--fg); }
+
+  .hero { position: relative; }
+  .hero img.bg { width: 100%; height: 58vh; object-fit: cover; filter: brightness(0.85); }
+  .hero .overlay { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; color: white; padding: 24px; }
+  .names { font-size: clamp(28px, 6vw, 56px); font-weight: 800; letter-spacing: -0.02em; }
+  .date { margin-top: 8px; font-size: clamp(14px, 2.8vw, 18px); opacity: .95; }
+  .cta-row { display: flex; gap: 8px; justify-content: center; margin-top: 18px; flex-wrap: wrap; }
+  .btn { padding: 12px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,.6); background: rgba(0,0,0,.2); color: #fff; backdrop-filter: blur(6px); cursor: pointer; font-weight: 600; }
+  .btn.dark { background: white; color: #111827; border-color: white; }
+  .btn:active { transform: translateY(1px); }
+
+  section { padding: 52px 0; }
+  h2 { margin: 0 0 16px 0; font-size: clamp(22px, 4vw, 30px); }
+  p.muted { color: var(--muted); line-height: 1.7; }
+
+  .card { background: white; border: 1px solid #e5e7eb; border-radius: var(--radius); padding: 18px; box-shadow: 0 10px 30px rgba(2,6,23,0.06); }
+  .grid-2 { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 700px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+
+  .countdown { display: grid; grid-auto-flow: column; gap: 14px; justify-content: center; }
+  .dd { text-align: center; }
+  .dd .num { font-size: 32px; font-weight: 800; }
+  .dd .lab { font-size: 12px; color: var(--muted); }
+
+  .kakaomap { width: 100%; border: 0; height: 360px; border-radius: var(--radius); }
+
+  .gallery { display: grid; gap: 8px; grid-template-columns: repeat(2, 1fr); }
+  @media (min-width: 700px) { .gallery { grid-template-columns: repeat(3, 1fr); } }
+  .gallery img { border-radius: 14px; aspect-ratio: 1/1; object-fit: cover; }
+
+  .guestbook form { display: grid; gap: 8px; }
+  .input, textarea { width: 100%; border-radius: 12px; border: 1px solid #e5e7eb; padding: 12px; font-size: 16px; }
+  .ghost { background: #111827; color:#fff; border: 1px solid #111827; }
+  .ghost:disabled { opacity: .6; }
+
+  .footer { padding: 36px 0; color: var(--muted); font-size: 14px; text-align: center; }
+  .pill { display:inline-block; padding: 6px 10px; border-radius: 999px; background:#f3f4f6; color:#111827; font-weight:600; }
+  .account { display:flex; gap:8px; flex-wrap: wrap; }
+  .copy { font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand">💌 류성관 & 강수정</div>
+      <div class="nav-links">
+        <a href="#about">인사말</a>
+        <a href="#when">일시·장소</a>
+        <a href="#gallery">갤러리</a>
+        <a href="#guestbook">방명록</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <img class="bg" src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1600&auto=format&fit=crop" alt="hero" />
+    <div class="overlay">
+      <div class="names">류성관 & 강수정</div>
+      <div class="date">2026-04-04 14:00 · 호텔수성 (대구 수성 호텔)</div>
+      <div class="cta-row">
+        <button class="btn" onclick="scrollToId('when')">일시·장소 보기</button>
+        <button class="btn dark" onclick="share()">초대장 공유</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <div class="grid-2">
+        <div class="card">
+          <h2>초대합니다</h2>
+          <p class="muted">
+            서로의 가장 좋은 친구가 되어 이제 한 가정을 이루려 합니다.<br/>
+            바쁘시겠지만 오셔서 축복해 주시면 더없는 기쁨이겠습니다.
+          </p>
+          <div style="margin-top:12px">
+            <span class="pill">신랑</span> 류성관 &nbsp;&nbsp;
+            <span class="pill">신부</span> 강수정
+          </div>
+        </div>
+        <div class="card">
+          <h2>D-Day</h2>
+          <div class="countdown" id="countdown">
+            <div class="dd"><div class="num" id="dday">0</div><div class="lab">일</div></div>
+            <div class="dd"><div class="num" id="dh">00</div><div class="lab">시간</div></div>
+            <div class="dd"><div class="num" id="dm">00</div><div class="lab">분</div></div>
+            <div class="dd"><div class="num" id="ds">00</div><div class="lab">초</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="when">
+      <div class="card">
+        <h2>일시·장소</h2>
+        <p class="muted">일시: 2026-04-04 14:00 (Asia/Seoul)</p>
+        <p class="muted">장소: <strong>호텔수성 (대구 수성 호텔)</strong><br/>대구광역시 수성구 용학로 106-7</p>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; margin: 12px 0 18px;">
+          <a class="btn dark" href="https://maps.google.com/?q=%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%88%98%EC%84%B1%EA%B5%AC%20%EC%9A%A9%ED%95%99%EB%A1%9C%20106-7%2C%20%ED%98%B8%ED%85%94%EC%88%98%EC%84%B1" target="_blank" rel="noreferrer">지도 앱으로 보기</a>
+          <a class="btn" href="tel:01020343302">신랑 연락</a>
+          <a class="btn" href="tel:010-9211-2174">신부 연락</a>
+        </div>
+        <iframe class="kakaomap" src="https://maps.google.com/maps?q=대구광역시 수성구 용학로 106-7&t=&z=16&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="card">
+        <h2>갤러리</h2>
+        <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1200&auto=format&fit=crop" alt="gallery"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop" alt="gallery"><img src="https://images.unsplash.com/photo-1522336572468-97b06e8ef143?q=80&w=1200&auto=format&fit=crop" alt="gallery"><img src="https://images.unsplash.com/photo-1485875437342-9b39470b3d95?q=80&w=1200&auto=format&fit=crop" alt="gallery"><img src="https://images.unsplash.com/photo-1472653431158-6364773b2a56?q=80&w=1200&auto=format&fit=crop" alt="gallery"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop" alt="gallery">
+        </div>
+      </div>
+    </section>
+
+    <section id="guestbook" class="guestbook">
+      <div class="card">
+        <h2>방명록</h2>
+        <form onsubmit="saveGuestbook(event)">
+          <input class="input" id="nick" placeholder="이름 또는 닉네임" required />
+          <textarea class="input" id="msg" rows="3" placeholder="축하 메시지를 남겨주세요" required></textarea>
+          <button class="btn dark ghost" id="gbSubmit">남기기</button>
+        </form>
+        <div id="gbList" style="margin-top:14px; display:grid; gap:10px;"></div>
+        <p class="copy">※ 방명록은 이 기기에서만 저장됩니다 (LocalStorage).</p>
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div>© 2025 류성관 & 강수정</div>
+      <div style="margin-top:6px"><a href="#home">맨 위로</a></div>
+    </div>
+  </footer>
+
+<script>
+  const WEDDING_ISO = "2026-04-04T14:00:00";
+  const TZ = "Asia/Seoul";
+
+  function pad(n) { return (n<10?'0':'') + n; }
+  function tick() {
+    const target = new Date(WEDDING_ISO.replace(' ', 'T'));
+    const now = new Date();
+    let diff = target - now;
+    if (diff < 0) diff = 0;
+    const d = Math.floor(diff / (1000*60*60*24));
+    const h = Math.floor((diff / (1000*60*60)) % 24);
+    const m = Math.floor((diff / (1000*60)) % 60);
+    const s = Math.floor((diff / 1000) % 60);
+    document.getElementById('dday').textContent = d;
+    document.getElementById('dh').textContent = pad(h);
+    document.getElementById('dm').textContent = pad(m);
+    document.getElementById('ds').textContent = pad(s);
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+
+  function scrollToId(id) {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  async function share() {
+    const data = {
+      title: "성관 & 수정 결혼합니다",
+      text: "2026년 4월 4일(토) 14:00, 호텔수성(대구)에서 뵙겠습니다.",
+      url: "https://example.com/invitation"
+    };
+    try {
+      if (navigator.share) { await navigator.share(data); }
+      else { await navigator.clipboard.writeText(data.url); alert('링크가 복사되었습니다.'); }
+    } catch (e) { /* user cancelled */ }
+  }
+
+  function copyText(text) {
+    navigator.clipboard.writeText(text).then(() => alert('복사되었습니다'));
+  }
+
+  // Guestbook (LocalStorage)
+  const KEY = "guestbook_entries";
+  function loadGuestbook() {
+    const saved = JSON.parse(localStorage.getItem(KEY) || "[]");
+    const list = document.getElementById('gbList');
+    list.innerHTML = "";
+    saved.forEach(function(item) {
+      var el = document.createElement('div');
+      el.className = 'card';
+      var dateStr = new Date(item.at).toLocaleString();
+      el.innerHTML = '<div style="font-weight:700">' + item.nick + '</div>' +
+                     '<div style="margin:6px 0; line-height:1.6">' + item.msg + '</div>' +
+                     '<div class="copy">' + dateStr + '</div>';
+      list.appendChild(el);
+    });
+  }
+  function saveGuestbook(e) {
+    e.preventDefault();
+    const btn = document.getElementById('gbSubmit');
+    btn.disabled = true;
+    const nick = document.getElementById('nick').value.trim();
+    const msg = document.getElementById('msg').value.trim();
+    if (!nick || !msg) { btn.disabled = false; return; }
+    const saved = JSON.parse(localStorage.getItem(KEY) || "[]");
+    saved.unshift({nick: nick, msg: msg, at: Date.now()});
+    localStorage.setItem(KEY, JSON.stringify(saved));
+    document.getElementById('nick').value = '';
+    document.getElementById('msg').value = '';
+    btn.disabled = false;
+    loadGuestbook();
+  }
+  loadGuestbook();
+</script>
+</body>
+</html>
